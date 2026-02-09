@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #1a0f1f, #2a1437);
+  color: #f5e9ff;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  font-size: 1.1rem;
+}
+
+/* Content */
+.content {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.content h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+/* Gallery */
+.gallery {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.gallery img {
+  width: 80%;
+  max-width: 300px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.caption {
+  margin-top: 30px;
+  font-style: italic;
+}
+
+/* Letter */
+.letter {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.address {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Proposal */
+.proposal {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.buttons button {
+  margin: 15px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #ffb3d9;
+  color: #2a1437;
+  transition: transform 0.3s;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+}
