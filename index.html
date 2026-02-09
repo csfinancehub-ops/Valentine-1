@@ -13,9 +13,19 @@
 <body>
 
 <!-- Background Music -->
-<audio autoplay loop>
+<audio id="bg-music" loop>
   <source src="song.mp3" type="audio/mpeg">
 </audio>
+
+<div class="music-wrapper">
+  <button class="music-btn" onclick="playMusic()">▶ Play our song</button>
+</div>
+
+<script>
+  function playMusic() {
+    document.getElementById("bg-music").play();
+  }
+</script>
 
 <!-- Section 1 -->
 <section class="hero">
@@ -104,3 +114,4 @@
 
 </body>
 </html>
+
