@@ -111,7 +111,30 @@
     <button>Always Yes 💍</button>
   </div>
 </section>
+<!-- Final message -->
+<div id="finalMessage" style="display:none; font-size:24px; color:red; margin-top:20px; text-align:center;">
+  I knew it, you will be always… my Valentine ❤️
+</div>
+
+<script>
+  // Get buttons and final message div
+  const yesBtn = document.getElementById("yesBtn");
+  const alwaysYesBtn = document.getElementById("alwaysYesBtn");
+  const finalMessage = document.getElementById("finalMessage");
+
+  // Function to show final message
+  function showFinalMessage() {
+    finalMessage.style.display = "block";
+    // Hide the buttons after click
+    document.getElementById("question").style.display = "none";
+  }
+
+  // Attach click events
+  yesBtn.addEventListener("click", showFinalMessage);
+  alwaysYesBtn.addEventListener("click", showFinalMessage);
+</script>
 
 </body>
 </html>
+
 
