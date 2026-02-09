@@ -95,6 +95,23 @@ body {
   transition: transform 0.3s;
 }
 
-.buttons button:hover {
-  transform: scale(1.1);
+.music-wrapper {
+  position: fixed;
+  top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
 }
+
+.music-btn {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: none;
+  background: rgba(255, 179, 217, 0.9);
+  color: #2a1437;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
